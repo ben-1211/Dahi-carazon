@@ -19,7 +19,7 @@
                 background: #c77590;
                 padding: 60px 60px;
                 color: #fff;
-                width: 50%;
+                width: 40%;
                 text-align: center;
                 margin: 25vh auto;
                 position: relative;
@@ -31,48 +31,48 @@
                 text-transform: uppercase;
                 margin: 5px;
             }
-            .top-border:before{
+            .top-border-left{
                 content: '';
                 width:20%;
                 height: 20%;
-                position: absolute;
+                position:absolute;
                 background: url(pngwing.com.png);
                 background-size: cover;
-                top:95px;
-                left: -90px;
+                top:0px;
+                left: 15px;
                 transform: rotate(90deg);
             }
-            .top-border:after{
+            .top-border-right{
                 content: '';
                 width: 20%;
                 height: 20%;
                 position:absolute;
                 background: url(pngwing.com.png);
                 background-size: cover;
-                top: 5px;
-                right: -5px;
+                top: 10px;
+                right: 5px;
                 transform: rotate(180deg);
             }
-            .bottom-border:before{
+            .bottom-border-left{
                 content: '';
                 width: 20%;
                 height: 20%;
                 position: absolute;
                 background: url(pngwing.com.png);
                 background-size: cover;
-                bottom: 5px;
-                left: 0px;
+                bottom: 10px;
+                left: 5px;
                 transform: rotate(0deg);
             }
-            .bottom-border:after{
+            .bottom-border-right{
                 content: '';
                 width: 20%;
                 height: 20%;
                 position: absolute;
                 background: url(pngwing.com.png);
                 background-size: cover;
-                bottom:  95px;
-                right: -90px;
+                bottom:  0px;
+                right: 15px;
                 transform: rotate(270deg);
             }
             .box img{
@@ -93,22 +93,27 @@
     <body>
         <div class="main">
             <div class="box">
-                <div class="top-border"></div>
+                <div class="top-border">
+                    <img src="pngwing.com.png" class="top-border-left">
+                    <img src="pngwing.com.png" class="top-border-right">
+                </div>
                 <img src="rings.png" class="ring">
                 <h3>Ben <span class="love">❤</span> Dahi</h3>
-                <p>
-                    Willst du wissen wieviel du mir bedeutest?
+                <p>¿Quieres saber cuánto significas para mí?</p>
+                <p>Si fueras como el sol, ardiente y brillante. <br>
+                Aún así te tomaría en mis brazos, te miraría a los ojos y te diría cuánto te quiero.<br>
+                No me importaría quedarme ciego y estallar en llamas. Sólo quiero sentir tu cercanía.<br>
+                <br>
+                ¿Quieres ser mi compañera, aceptas tratarme como soy digna de ti?<br>
+                ¿Quererme pase lo que pase? Si puedes hacerlo, siempre estaré a tu lado, no importa lo que tengas que pasar, <br>
+                no importa lo duro que sea. No importa si discutimos o si reímos.<br>
+                Hablo en serio de ti, eres importante. Los dos juntos, una pareja. <br>¿Quieres estar conmigo? <br>
+                </p>
 
-                    Wenn du wie die Sonne wärst, brennend heiß und leuchtend hell. 
-                    Ich würde dich dennoch in den Arm nehmen, dir in die Augen schauen und sagen wie sehr ich dich Liebe. 
-                    Es wäre mir egal ob ich dabei erblinde und in flammen aufgehe. Ich will einfach nur deine Nähe spüren.</p>
-                <p>
-                    Willst du mein Partner sein, akzeptierst du mich so zu behandeln wie ich dir würdig bin? 
-                    Mich zu lieben egal was ist? 
-                    Wenn du das kannst,  werde ich immer an deiner Seite sein, egal was du durchmachen musst, egal wie schwer es ist. 
-                    Egal ob wir uns streiten oder ob wir lachen. Es ist mir Ernst mit dir, du bist wichtig. 
-                    Wir beide Zusammen, ein Paar. Willst du mit mir zusammen sein?</p>
-                <div class="bottom-border"></div>
+                <div class="bottom-border">
+                    <img src="pngwing.com.png" class="bottom-border-left">
+                    <img src="pngwing.com.png" class="bottom-border-right">
+                </div>
             </div>
         </div>
     </body>
