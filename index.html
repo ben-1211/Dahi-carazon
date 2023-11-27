@@ -16,7 +16,7 @@
                 background-attachment: scroll;
             }
             .box{
-                background: #e91e63;
+                background: #c77590;
                 padding: 60px 60px;
                 color: #fff;
                 width: 50%;
@@ -33,15 +33,60 @@
             }
             .top-border:before{
                 content: '';
-                width: 50%;
-                height: 50%;
+                width:20%;
+                height: 20%;
                 position: absolute;
-                background: url(corner_1.png);
-                top: 20px;
-                right: 20px;
+                background: url(pngwing.com.png);
+                background-size: cover;
+                top: 15px;
+                left: -20px;
                 transform: rotate(90deg);
             }
-
+            .top-border:after{
+                content: '';
+                width: 20%;
+                height: 20%;
+                position: absolute;
+                background: url(pngwing.com.png);
+                background-size: cover;
+                top: 0px;
+                right: -5px;
+                transform: rotate(180deg);
+            }
+            .bottom-border:before{
+                content: '';
+                width: 20%;
+                height: 20%;
+                position: absolute;
+                background: url(pngwing.com.png);
+                background-size: cover;
+                bottom:  0px;
+                left: -5px;
+                transform: rotate(0deg);
+            }
+            .bottom-border:after{
+                content: '';
+                width: 20%;
+                height: 20%;
+                position: absolute;
+                background: url(pngwing.com.png);
+                background-size: cover;
+                bottom:  15px;
+                right: -20px;
+                transform: rotate(270deg);
+            }
+            .box img{
+                width: 100px;
+            }
+            .love{
+                animation: pulse 1s ease infinite;
+                display: inline-block;
+            }
+            @keyframes pulse{
+                0%{ transform: scale(1);}
+                50%{ transform: scale(1.3);}
+                100%{ transform: scale(1);}
+            }
         </style>
     </head>
 
@@ -50,7 +95,7 @@
             <div class="box">
                 <div class="top-border"></div>
                 <img src="rings.png" class="ring">
-                <h3>Ben <span class="love">💓❤♥</span> Dahi</h3>
+                <h3>Ben <span class="love">❤</span> Dahi</h3>
                 <p>
                     Willst du wissen wieviel du mir bedeutest?
 
