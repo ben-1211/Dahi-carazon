@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=5.0, minimum-scale=0.5">
+
+        <style>
+            @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css');
+
+            body{
+                font-family: 'Lora';
+                font-size: 17px;
+                line-height: 1.5;
+                height: 1200px;
+                background-color: #fff;
+                background-image: url(background_hand_flower.jpg);
+                background-attachment: scroll;
+                transform: scale(1.5);
+
+            }
+            .box{
+                background: #1e81b0;
+                padding: 60px 60px;
+                color: #fff;
+                width: 40%;
+                text-align: center;
+                margin: 25vh auto;
+                position: relative;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+                border-radius: 10px;
+            }
+            .box h3{
+                font-size: 30px;
+                font-weight: 400;
+                text-transform: uppercase;
+                margin: 5px;
+            }
+            .top-border-left{
+                content: '';
+                width: 150px;
+                height: 150px;
+                position:absolute;
+                background: url();
+                background-size: cover;
+                top:10px;
+                left: 5px;
+                transform: scaleY(-1);
+            }
+            .top-border-right{
+                content: '';
+                width: 150px;
+                height: 150px;
+                position:absolute;
+                background: url();
+                background-size: cover;
+                top: 10px;
+                right: 5px;
+                transform: scale(-1);
+            }
+            .bottom-border-left{
+                content: '';
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                background: url();
+                background-size: cover;
+                bottom: 10px;
+                left: 5px;
+                transform: rotate(0deg);
+            }
+            .bottom-border-right{
+                content: '';
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                background: url();
+                background-size: cover;
+                bottom:  10px;
+                right: 5px;
+                transform: scaleX(-1);
+            }
+            .box img{
+                width: 100px;
+            }
+            .love{
+                animation: pulse 1s ease infinite;
+                display: inline-block;
+            }
+            @keyframes pulse{
+                0%{ transform: scale(1);}
+                50%{ transform: scale(1.3);}
+                100%{ transform: scale(1);}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="box">
+                <audio autoplay loop  id="playAudio">
+                    <source src="sound/Background.mp3">
+                </audio>
+                <div class="top-border">
+                    <img src="flower-corner-1517055_1280.png" class="top-border-left">
+                    <img src="flower-corner-1517055_1280.png" class="top-border-right">
+                </div>
+                <img src="troubled_women.jpg" class="ring">
+                <h3> Amor <span class="love">❤</span> Esperanza </h3>
+                <p>¡Para ti!</p>
+                    <img src="Pictures/01.jpg"> <br/>
+                <p>
+                    Tus flores siguen estando preciosas, como tú.<br/>
+                    Puse algunos alrededor de algunas velas, porque creo que se merecen <br/>
+                    por lo que tienen algunas luces de bight para los últimos días que tienen.<br/>
+                </p>
+                
+                <img src="Pictures/02.gif">
+                <p>
+                    Las luces también representan cosas que son importantes en mi vida, que me apoyan. <br/>
+                    Uno es para mi familia, mi hermano y mi madre. <br/>
+                    Una es para unos queridos amigos que me preguntan cómo estoy. <br/>
+                    La última vela, pero la más brillante, es para ti.<br/>
+                    A veces desapareces por un tiempo. <br/>
+                    Me siento un poco sola y temo que no vuelvas a iluminar.
+                </p>
+
+                <img src="Pictures/03.gif">
+                <p>
+                    Pero siempre volvías, <br/>
+                    y cada vez parecías más fuerte y más hermosa. <br/>
+                    Me hace muy feliz que desempeñes un papel importante en mi vida.<br/>
+                </p>
+
+                <img src="Pictures/04.gif">
+                <p>
+                    También tienes velas en tu vida, que te dan apoyo,  <br/>
+                    que te quieren, que te dan fuerza.<br/>
+                    Tu familia, tu madre, tu hermano, tu hermana.<br/>
+                    Tú los cuidas con amor y ellos lo hacen por ti.<br/>
+                    Tus amigos, a los que conoces desde hace tiempo. Que salen contigo, <br/>
+                    que te animan. Con quien compartes cosas como con nadie más.<br/>
+                    Una vela está oscura. Es la vela que te hizo daño en el pasado. <br/>
+                    La vela que, por un breve momento, fui yo. Me encantaría volver a ser esa vela, <br/>
+                    algún día. Cuando estés listo para encenderlo de nuevo. Fui egoísta cuando te pedí <br/>
+                    para llevarme de vuelta, así no es como funciona esto.<br/>
+                    No podemos cambiar nuestro pasado, pero podemos forjar nuestro futuro. <br/>
+                    Nadie puede cambiar lo que te pasó antes de conocernos, <br/>
+                    pero tal vez algún día pueda estar ahí para ti, amarte y ser amado por ti.<br/>
+                    Para que pueda ser fuerte para ti, para que puedas empezar a sanar.<br/>
+                </p>
+                <div class="bottom-border">
+                    <img src="flower-corner-1517055_1280.png" class="bottom-border-left">
+                    <img src="flower-corner-1517055_1280.png" class="bottom-border-right">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
